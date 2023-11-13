@@ -1,10 +1,15 @@
 body {
-    background-color: #36486b;
+    background-color:#D0B49F;
     font-family: Georgia, Times, serif;
 }
 
+ul {
+  list-style-type: none;
+}
+
+
 #navbar {
-    background-color:#fefbd8;
+    background-color:#E4D4C8;
     padding: 15px;
     margin: 25px 120px;
     color: #618685;
@@ -14,11 +19,16 @@ body {
 a {
     text-decoration: none;
     padding: 10px 20px;
-    color: #36486b;
+    color: #523A28;
+}
+
+a:hover{
+    background-color:#f5deb3;
+    padding: 3px 8px;
 }
 
 section {
-    background-color: #618685;
+    background-color: #edc9af;
     margin: 15px auto;
     max-width: 850px;
     border: 8px;
@@ -30,26 +40,32 @@ img {
     height: 420px;
     margin: auto;
     display: block;
-    border: 12px solid #36486b;
 }
-
-#potatohead {
-  font-size: 120px;
-  font-weight: 460;
-  font-family: Arial, Helvetica, sans-serif;
-  background-image: url("frybackground.jpeg");
-  background-size: 120px;
-  background-repeat: repeat;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  padding: 0px;
-  line-height: .8;
-  margin-top: 18px;
-  margin-bottom: 18px;
+#main-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   position: relative;
+  left: 50%;
+  float:left;
+  text-align: center;
 }
 
-.center {
-    text-align: center;
+#main-menu ul li {
+  display: block;
+  position: relative;
+  right: 45%;
+  float: left;
+}
+
+#main-menu ul li a {
+  display: block;
+  padding: 15px 10px;
+  text-decoration: none;
+  color: black;
+}
+#main-menu2 {
+  position: relative;
+  width: 100%;
+  float: top;
 }
